@@ -44,6 +44,9 @@
   --fs-13xl: 54px;
   --fs-14xl: 60px;
 
+  /* Diffrent font-size */
+  --fs-32: 32px;
+
   /* line height */
   --lh-110: 110%;
   --lh-120: 120%;
@@ -64,8 +67,12 @@
   /* colors */
   --white-color: #ffffff;
   --black-color: #000000;
-  --color-ccc: #CCCDCE;
+  --color-ccc: #cccdce;
   --color-01: #010101;
+  --color-4e: #4e5051;
+  --color-35: #353739;
+  --color-15: #15aa15;
+  --color-b3: #b3b4b5;
 }
 
 .ff-sans {
@@ -142,6 +149,10 @@
   font-size: var(--fs-14xl);
 }
 
+.fs-32 {
+  font-size: var(--fs-32);
+}
+
 /* ------------------------------------------------------  Define All Lines-height ----------------------------------------------------- */
 
 .lh-110 {
@@ -208,25 +219,38 @@
   color: var(--black-color);
 }
 
-.color-ccc{
+.color-ccc {
   color: var(--color-ccc);
+}
+
+.color-4e {
+  color: var(--color-4e);
+}
+
+.color-35 {
+  color: var(--color-35);
+}
+
+.color-15 {
+  color: var(--color-15);
+}
+
+.color-b3 {
+  color: var(--color-b3);
 }
 
 /* ------------------------------------------------------  Define All Background colors -------------------------------------------- */
 
-.body-bg{
-  background-image: url('../images/png/Homepage.png');
+.body-bg {
+  background-image: url("../images/png/Homepage.png");
   width: 100%;
 }
 
 @media (max-width: 991.1px) {
-  
 }
 
 @media (max-width: 767.1px) {
-  
 }
 
 @media (max-width: 575.1px) {
- 
 }
