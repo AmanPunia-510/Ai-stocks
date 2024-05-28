@@ -19,6 +19,14 @@ h2 {
 
 /* ------------------------------------------------------  Width Classes ------------------------------------------------- */
 
+.max-w-422 {
+  max-width: 422px;
+}
+
+.max-w-617 {
+  max-width: 617px;
+}
+
 .max-w-654 {
   max-width: 654px;
 }
@@ -47,12 +55,21 @@ h2 {
   padding-top: 2px;
 }
 
+.pt-22 {
+  padding-top: 22px;
+}
+
 .pt-44 {
   padding-top: 44px;
 }
 
 .pb-100 {
   padding-bottom: 100px;
+}
+
+.py-200 {
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 /* ------------------------------------------------------  Margin Classes ------------------------------------------------------ */
@@ -249,4 +266,21 @@ h2 {
 
 .slick-list {
   margin: 0 -10px;
+}
+
+/* ------------------------------------------------------  TRADE --------------------------------------------------------------- */
+
+.sec2-h span {
+  background: linear-gradient(95.15deg, #00ffe1 19.02%, #6e5df6 68.8%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.company-box{
+  max-width: 519px;
+}
+
+.account-btn{
+  max-width: 201px;
 }
