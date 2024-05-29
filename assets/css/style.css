@@ -439,6 +439,57 @@ h2 {
   width: 135px;
 }
 
+/* ------------------------------------------------------  TIMELINE -------------------------------------------------------- */
+
+.timeline-box {
+  max-width: 891px;
+}
+
+.timeline {
+  max-width: 716px;
+  margin-top: 80px;
+}
+
+.timeline-h span {
+  background: linear-gradient(171.68deg, #00ffe1 39.97%, #6e5df6 107.69%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.timeline-p {
+  margin-top: 33px;
+}
+
+.content-box1 {
+  max-width: 506px;
+  padding: 35px;
+  padding-left: 98px;
+}
+
+.content-box2 {
+  max-width: 540px;
+  margin-top: 57px;
+}
+
+.content-box3 {
+  max-width: 506px;
+  margin-top: 136px;
+  margin-left: 170px;
+}
+
+.open-btn {
+  max-width: 203px;
+}
+
+.timeline-position {
+  top: 0;
+  left: 50%;
+  max-width: 556px;
+  width: 100%;
+  transform: translateX(-50%);
+}
+
 /* ------------------------------------------------------ FOOTER -------------------------------------------------------- */
 
 .sub-footer {
@@ -453,7 +504,7 @@ h2 {
   padding-top: 1px;
   width: 100%;
   height: 100%;
-  background: linear-gradient(107.02deg, #00FFE1 12.76%, #6E5DF6 91.81%);
+  background: linear-gradient(107.02deg, #00ffe1 12.76%, #6e5df6 91.81%);
   -webkit-mask: linear-gradient(var(--white-color) 0 0) content-box,
     linear-gradient(var(--white-color) 0 0);
   -webkit-mask-composite: xor;
