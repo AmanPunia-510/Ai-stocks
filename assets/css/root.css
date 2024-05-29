@@ -75,6 +75,7 @@
   --color-35: #353739;
   --color-15: #15aa15;
   --color-b3: #b3b4b5;
+  --color-e6: #e6e6e6;
 }
 
 .ff-sans {
@@ -247,6 +248,10 @@
 
 .color-b3 {
   color: var(--color-b3);
+}
+
+.color-e6 {
+  color: var(--color-e6);
 }
 
 /* ------------------------------------------------------  Define All Background colors -------------------------------------------- */

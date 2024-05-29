@@ -29,18 +29,18 @@ accordian_items.forEach((items) => {
         let paragraph = other.querySelector(".accordian-p");
         let svg = other.querySelector(".accordian-svg");
         paragraph.classList.add("d-none");
-        svg.innerHTML = "+";
+        svg.style.transform = "rotate(180deg)";
       }
     });
 
     if (paragraph.classList.contains("d-none")) {
       paragraph.classList.remove("d-none");
       paragraph.classList.add("d-block");
-      svg.innerHTML = "-";
+      svg.style.transform = "rotate(0deg)";
     } else {
       paragraph.classList.remove("d-block");
       paragraph.classList.add("d-none");
-      svg.innerHTML = "+";
+      svg.style.transform = "rotate(180deg)";
     }
   });
 });
