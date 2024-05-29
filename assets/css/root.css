@@ -44,6 +44,7 @@
   --fs-13xl: 54px;
   --fs-14xl: 60px;
   --fs-15xl: 70px;
+  --fs-16xl: 88px;
 
   /* Diffrent font-size */
   --fs-32: 32px;
@@ -152,6 +153,10 @@
 
 .fs-15xl {
   font-size: var(--fs-15xl);
+}
+
+.fs-16xl {
+  font-size: var(--fs-16xl);
 }
 
 .fs-32 {

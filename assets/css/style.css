@@ -88,6 +88,14 @@ h2 {
   padding-bottom: 100px;
 }
 
+.pb-107 {
+  padding-bottom: 107px;
+}
+
+.pt-114 {
+  padding-top: 114px;
+}
+
 .pt-150 {
   padding-top: 150px;
 }
@@ -125,6 +133,10 @@ h2 {
 
 .mt-40 {
   margin-top: 40px;
+}
+
+.mt-44 {
+  margin-top: 44px;
 }
 
 .mt-60 {
@@ -488,6 +500,41 @@ h2 {
   max-width: 556px;
   width: 100%;
   transform: translateX(-50%);
+}
+
+/* ------------------------------------------------------  STATICS -------------------------------------------------------- */
+
+.sec6-h span {
+  background: linear-gradient(171.68deg, #00ffe1 39.97%, #6e5df6 107.69%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.static-card {
+  width: 270px;
+}
+
+.static-round {
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+}
+
+.static-round::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 8px;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: linear-gradient(171.68deg, #00ffe1 39.97%, #6e5df6 107.69%);
+  -webkit-mask: linear-gradient(var(--white-color) 0 0) content-box,
+    linear-gradient(var(--white-color) 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
 }
 
 /* ------------------------------------------------------ FOOTER -------------------------------------------------------- */
