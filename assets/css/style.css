@@ -113,6 +113,10 @@ h2 {
   padding-top: 180px;
 }
 
+.pt-200 {
+  padding-top: 200px;
+}
+
 .py-200 {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -150,6 +154,10 @@ h2 {
 
 .mt-60 {
   margin-top: 60px;
+}
+
+.mt-80 {
+  margin-top: 80px;
 }
 
 /* ------------------------------------------------------  Flex Classes -------------------------------------------------------- */
@@ -556,7 +564,7 @@ h2 {
   max-width: 603px;
 }
 
-.accordian-h{
+.accordian-h {
   max-width: 630px;
 }
 
@@ -573,6 +581,76 @@ h2 {
   -webkit-mask-composite: xor;
   mask-composite: exclude;
   pointer-events: none;
+}
+
+.accordian-svg {
+  transform: rotate(180deg);
+}
+
+.accordian-svg1 {
+  transform: rotate(0deg);
+}
+
+/* ------------------------------------------------------  BENIFIT ------------------------------------------------------ */
+
+.sec9-h {
+  max-width: 733px;
+}
+
+.sec9-h span {
+  background: linear-gradient(93.4deg, #00ffe1 38.61%, #6e5df6 92.96%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.benifit-content {
+  max-width: 1040px;
+}
+
+.benifit-box1 {
+  max-width: 461px;
+}
+
+.benifit-box2 {
+  max-width: 500px;
+}
+
+.techno-card {
+  background: #ffffff0a;
+  border-radius: 12px;
+  padding: 45px 12px;
+}
+
+.common-techno-svg {
+  background: #ffffff0a;
+  height: 64px;
+  width: 64px;
+  border-radius: 4px;
+}
+
+.techno-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 1px;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(171.68deg, #00ffe1 39.97%, #6e5df6 107.69%);
+  -webkit-mask: linear-gradient(var(--white-color) 0 0) content-box,
+    linear-gradient(var(--white-color) 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+.benifit-p {
+  max-width: 974px;
+}
+
+.benifit-p span {
+  color: #449bee;
 }
 
 /* ------------------------------------------------------  FIRST STEP --------------------------------------------------- */
