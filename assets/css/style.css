@@ -554,6 +554,27 @@ h2 {
   pointer-events: none;
 }
 
+/* ------------------------------------------------------  INVESTMENT -------------------------------------------------------- */
+
+.investment-box {
+  max-width: 558px;
+}
+
+.investment-h span {
+  background: linear-gradient(171.68deg, #00ffe1 39.97%, #6e5df6 107.69%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.register-btn {
+  max-width: 155px;
+}
+
+.invesment-image {
+  width: 100%;
+}
+
 /* ------------------------------------------------------  ACCORDIAN ---------------------------------------------------- */
 
 .accordian {
@@ -736,4 +757,13 @@ h2 {
   -webkit-mask-composite: xor;
   mask-composite: exclude;
   pointer-events: none;
+}
+
+@media (min-width: 1400px) {
+  .invesment-image {
+    position: absolute;
+    left: 0;
+    top: 31%;
+    width: auto;
+  }
 }
