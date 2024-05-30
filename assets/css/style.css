@@ -579,6 +579,14 @@ h2 {
   max-width: 876px;
 }
 
+.invesment-image {
+  position: absolute;
+  top: 36.3%;
+  width: 100%;
+  max-width: 824px;
+  right: 53%;
+}
+
 /* ------------------------------------------------------  ACCORDIAN ---------------------------------------------------- */
 
 .accordian {
@@ -803,8 +811,9 @@ h2 {
 @media (min-width: 1400px) {
   .invesment-image {
     position: absolute;
-    left: 0;
-    top: 31%;
-    width: auto;
+    top: 27%;
+    width: 100%;
+    max-width: 1014px;
+    right: 54%;
   }
 }
