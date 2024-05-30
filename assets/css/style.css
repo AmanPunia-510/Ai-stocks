@@ -575,6 +575,10 @@ h2 {
   width: 100%;
 }
 
+.invest-1 {
+  max-width: 876px;
+}
+
 /* ------------------------------------------------------  ACCORDIAN ---------------------------------------------------- */
 
 .accordian {
@@ -757,6 +761,43 @@ h2 {
   -webkit-mask-composite: xor;
   mask-composite: exclude;
   pointer-events: none;
+}
+
+/* ------------------------------------------------------ ELLIPS -------------------------------------------------------- */
+
+.header1-left {
+  top: 0;
+  left: 0;
+}
+
+.header2-left {
+  top: 333px;
+  left: 0;
+}
+
+.header3-left {
+  left: -406px;
+  bottom: -179px;
+}
+
+.trade1-left {
+  top: -112px;
+  left: 0;
+}
+
+.footer-left1 {
+  bottom: -26%;
+  left: -27%;
+}
+
+.step-left {
+  top: 0;
+  left: 0;
+}
+
+.benifit-left {
+  top: -18%;
+  left: 0;
 }
 
 @media (min-width: 1400px) {

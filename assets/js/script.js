@@ -15,8 +15,6 @@ $(".slider").slick({
 
 // accrodian
 
-// accrodian
-
 let accordian_items = document.querySelectorAll(".accordian-box");
 
 accordian_items.forEach((items) => {
