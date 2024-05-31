@@ -889,6 +889,31 @@ h2 {
   top: 19%;
 }
 
+.top7-right1 {
+  right: 0;
+  top: 22px;
+}
+
+.top7-right2 {
+  right: 0px;
+  top: 25%;
+}
+
+.top7-right3 {
+  right: 0px;
+  top: 48%;
+}
+
+.top7-right4 {
+  right: 0;
+  top: 69%;
+}
+
+.top7-right5 {
+  bottom: -13%;
+  right: 0;
+}
+
 @media (min-width: 1400px) {
   .invesment-image {
     position: absolute;
