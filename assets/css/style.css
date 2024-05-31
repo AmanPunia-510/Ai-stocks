@@ -19,6 +19,10 @@ h2 {
 
 /* ------------------------------------------------------  Width Classes ------------------------------------------------- */
 
+.max-w-388 {
+  max-width: 388px;
+}
+
 .max-w-422 {
   max-width: 422px;
 }
@@ -37,10 +41,6 @@ h2 {
 
 .max-w-617 {
   max-width: 617px;
-}
-
-.max-w-654 {
-  max-width: 654px;
 }
 
 /* ------------------------------------------------------  Z-indexs ----------------------------------------------------- */
@@ -182,10 +182,6 @@ h2 {
   gap: 18px;
 }
 
-.gap-20 {
-  gap: 20px;
-}
-
 /* ------------------------------------------------------  Header -------------------------------------------------------------- */
 
 .header {
@@ -271,15 +267,14 @@ h2 {
   width: 128px;
   height: 128px;
   border-radius: 8px;
-  background: #ffffff01;
-  backdrop-filter: blur(7px);
+  backdrop-filter: blur(39px);
+  background: #ffffff00;
 }
 
 .time-card {
   background: #ffffff12;
   backdrop-filter: blur(15px);
-  padding: 20px;
-  max-width: 388px;
+  padding: 12px;
 }
 
 .time-card::after {
@@ -317,7 +312,6 @@ h2 {
 
 .iti {
   width: 100%;
-  margin-top: 12px;
 }
 
 .iti__selected-flag {
@@ -333,6 +327,10 @@ h2 {
 
 #phone {
   padding-left: 85px !important;
+}
+
+.live-p {
+  width: 101%;
 }
 
 /* ------------------------------------------------------  SLIDER ------------------------------------------------------------- */
@@ -371,10 +369,41 @@ h2 {
 
 .company-box {
   max-width: 519px;
+  margin-top: 22px;
 }
 
 .account-btn {
   max-width: 201px;
+}
+
+.company-item {
+  padding: 16px;
+  padding-left: 33px;
+  background: #ffffff0a;
+  border-radius: 6px;
+  border: 1px solid #ffffff29;
+}
+
+.company-item::after {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1px solid #939393;
+  background: #ffffff;
+  right: -105px;
+  top: 0;
+}
+
+.company-item2::after {
+  content: "";
+  top: 16px;
+}
+
+.company-item3::after {
+  content: "";
+  top: 32px;
 }
 
 /* ------------------------------------------------------  UNDERSTANDING -------------------------------------------------------- */
@@ -607,7 +636,7 @@ h2 {
 
 .invesment-image {
   position: absolute;
-  top: 33.3%;
+  top: 4.3%;
   width: 100%;
   max-width: 834px;
   right: 53%;
@@ -914,12 +943,78 @@ h2 {
   right: 0;
 }
 
+.timeline-right {
+  right: 0;
+  top: 44%;
+}
+
+.invest-right {
+  right: 0;
+  top: -62px;
+}
+
+.benifit-right {
+  right: 0;
+  top: 16%;
+}
+
+.step-right {
+  right: 0;
+  top: 15%;
+}
+
+.footer-right {
+  bottom: -42%;
+  right: -29%;
+}
+
+@media (min-width: 576px) {
+  .px-sm-12 {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+
+  .pl-0 {
+    padding-left: 0 !important;
+  }
+
+  .pr-0 {
+    padding-right: 0 !important;
+  }
+
+  .gap-sm-20 {
+    gap: 20px !important;
+  }
+
+  .time-card {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .max-w-lg-654 {
+    max-width: 654px;
+  }
+
+  .time-card {
+    max-width: 388px;
+  }
+
+  .pl-lg-0 {
+    padding-left: 0 !important;
+  }
+
+  .pr-lg-0 {
+    padding-right: 0 !important;
+  }
+}
+
 @media (min-width: 1400px) {
   .invesment-image {
     position: absolute;
-    top: 27%;
+    top: 3%;
     width: 100%;
-    max-width: 1014px;
+    max-width: 863px;
     right: 54%;
   }
 }
@@ -927,10 +1022,21 @@ h2 {
 @media (min-width: 1920px) {
   .invesment-image {
     position: absolute;
-    top: 26%;
+    top: -2%;
     width: 100%;
-    max-width: 1195px;
-    right: 54%;
-    height: 85%;
+    max-width: 1181px;
+    right: 55%;
+    height: 110%;
+  }
+}
+
+@media (max-width: 576px) {
+  .sign-btn {
+    width: 100px;
+    height: 42px;
+  }
+
+  .common-timer {
+    height: 84px;
   }
 }

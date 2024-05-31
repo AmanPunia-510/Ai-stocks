@@ -25,7 +25,7 @@
 <body class="body-bg w-100">
 
     <header class="header w-100 position-relative min-vh-100 d-flex flex-column">
-        <nav class="nav position-relative">
+        <nav class="nav position-relative z-1">
             <div class="my-container">
                 <div class="navbar d-flex align-items-center justify-content-between">
                     <div class="logo ff-sans fw-700 fs-10xl lh-150 white-color">AI STOCKS</div>
@@ -34,7 +34,8 @@
                 </div>
             </div>
         </nav>
-        <div class="my-container d-flex flex-grow-1 align-items-center flex-column justify-content-center">
+        <div
+            class="my-container d-flex flex-grow-1 align-items-center flex-column justify-content-center position-relative z-1">
             <h2 class="hero-h fs-12xl fw-700 ff-sans lh-120 white-color text-center mx-auto mt-5">Dive into the
                 Explosive Momentum of 2024 with the <span>Top 7</span> Fastest-Growing <span>AI Stocks!</span></h2>
             <p class="hero-p ff-sans fw-400 fs-md lh-160 text-center mx-auto color-ccc mt-28">Major AI Stocks such as
@@ -42,18 +43,18 @@
                 giants are expected to grow
                 <span class="fw-700">130.66%</span> in 2024
             </p>
-            <div class="row mt-40 pb-100">
-                <div class="col-7 p-0">
-                    <div class="max-w-654">
+            <div class="row mt-40 pb-100 w-100">
+                <div class="col-12 col-lg-7 p-0">
+                    <div class="max-w-lg-654">
                         <div class="live-img w-100 position-relative mx-auto">
                             <img src="./assets/images/png/live.png" alt="live image" class="live-image w-100">
                             <img src="./assets/images/png/live-position.png" alt="live position"
                                 class="live-position position-absolute w-100">
                         </div>
-                        <p class="live-p ff-sans fw-700 fs-lg lh-150 white-color mt-20">Due to extremely high demand for
+                        <p class="live-p ff-sans fw-700 fs-lg lh-150 white-color mt-20 text-center text-lg-start">Due to extremely high demand for
                             media
                             coverage, registration closes in</p>
-                        <div class="timer-card d-flex align-items-center gap-20 justify-content-center mt-4">
+                        <div class="timer-card d-flex align-items-center gap-1 gap-sm-20 justify-content-center mt-4">
                             <div
                                 class="common-timer timer1 d-flex flex-column align-items-center justify-content-center">
                                 <p class=" fw-700 fs-12xl lh-150 ff-sans white-color ">00</p>
@@ -80,7 +81,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-5 d-flex justify-content-end">
+                <div class="col-12 col-lg-5 d-lg-flex justify-content-end mt-5 mt-lg-0 px-0">
                     <div>
                         <div class="time-card position-relative">
                             <h2 class="time-h ff-sans fw-600 fs-4xl white-color lh-120 text-center">This Is The Right
@@ -89,22 +90,36 @@
                             <p class="time-p ff-sans fw-400 fs-md lh-150 white-color text-center mt-3">In a matter of
                                 minutes, one of our AI mentors will contact you, No Experience
                                 Required!</p>
-                            <form class="w-100 mt-4">
-                                <input type="text"
-                                    class="input-txt common-input ff-sans fw-400 fs-md lh-150 color-01 p-3 bg-white w-100"
-                                    placeholder="First Name">
-                                <input type="text"
-                                    class="input-txt common-input ff-sans fw-400 fs-md lh-150 color-01 p-3 bg-white w-100 mt-3"
-                                    placeholder="Last Name">
-                                <input type="email"
-                                    class="input-txt common-input ff-sans fw-400 fs-md lh-150 color-01 p-3 bg-white w-100 mt-3"
-                                    placeholder="Email">
-                                <input type="number"
-                                    class="input-txt common-input ff-sans fw-400 fs-md lh-150 color-01 p-3 bg-white w-100 mt-3"
-                                    placeholder="Phone Number" id="phone">
-                                <button
-                                    class="start-btn common-btn d-flex align-items-center justify-content-center w-100 mt-32">Get
-                                    Started</button>
+                            <form class="form w-100 mt-4 row align-items-baseline mx-0">
+                                <div class="col-12 px-0 px-sm-12 col-sm-6 col-lg-12 px-lg-0 pl-0 pr-lg-0">
+                                    <input type="text"
+                                        class="input-txt common-input ff-sans fw-400 fs-md lh-150 color-01 p-3 bg-white w-100"
+                                        placeholder="First Name">
+                                </div>
+
+                                <div class="col-12 px-0 px-sm-12 col-sm-6 col-lg-12 px-lg-0 pr-0 pl-lg-0 mt-3 mt-sm-4 mt-lg-3">
+                                    <input type="text"
+                                        class="input-txt common-input ff-sans fw-400 fs-md lh-150 color-01 p-3 bg-white w-100"
+                                        placeholder="Last Name">
+                                </div>
+
+                                <div class="col-12 px-0 px-sm-12 col-sm-6 col-lg-12 px-lg-0 pl-0  pr-lg-0 mt-3 mt-sm-4 mt-lg-3">
+                                    <input type="email"
+                                        class="input-txt common-input ff-sans fw-400 fs-md lh-150 color-01 p-3 bg-white w-100"
+                                        placeholder="Email">
+                                </div>
+
+                                <div class="col-12 px-0 px-sm-12 col-sm-6 col-lg-12 px-lg-0 pr-0 pl-lg-0 mt-3 mt-sm-4 mt-lg-3">
+                                    <input type="number"
+                                        class="input-txt common-input ff-sans fw-400 fs-md lh-150 color-01 p-3 bg-white w-100"
+                                        placeholder="Phone Number" id="phone">
+                                </div>
+
+                                <div class="col-12 px-0 px-sm-12 col-sm-6 col-lg-12 px-lg-0 pr-0 pl-lg-0 mx-auto">
+                                    <button
+                                        class="start-btn common-btn d-flex align-items-center justify-content-center w-100 mt-32">Get
+                                        Started</button>
+                                </div>
                             </form>
                         </div>
                         <p class="only-3-spot fw-700 fs-xl lh-140 white-color ff-sans text-center mx-auto mt-14">Only 3
@@ -123,10 +138,10 @@
         <img src="./assets/images/png/header2-right.png" alt="header2-right" class="header2-right position-absolute">
     </header>
 
-    <main>
-        <!------------------------------------------------------ slider section-1 ---------------------------------------------------->
+    <!-- <main>
+        ---------------------------------------------------- slider section-1 --------------------------------------------------
         <section class="section1 slider-section pt-44">
-            <div class="slider overflow-hidden">
+            <div class="slider overflow-hidden position-relative z-1">
                 <div class="slider-item1 common-slider">
                     <div class="slider-content d-flex align-items-center gap-3">
                         <div class="slider-image">
@@ -256,9 +271,9 @@
             </div>
         </section>
 
-        <!------------------------------------------------------ Trade section-2 ----------------------------------------------------->
+        ---------------------------------------------------- Trade section-2 ---------------------------------------------------
         <section class="section2 py-200 position-relative">
-            <div class="my-container">
+            <div class="my-container position-relative z-1">
                 <div class="row">
                     <div class="col-5">
                         <div class="max-w-422">
@@ -272,7 +287,9 @@
                             <p class="sec2-p fw-400 fs-md lh-150 color-ccc ff-sans pt-22">Stocks, Forex, Indices and
                                 more</p>
                             <div class="company-box">
-                                <div class="company-item"></div>
+                                <div class="company-item fw-400 fs-xl lh-140 ff-sans color-b5 position-relative">Choose your favourite company</div>
+                                <div class="company-item company-item2 fw-400 fs-xl lh-140 ff-sans color-b5 mt-4 position-relative">Select how much to invest</div>
+                                <div class="company-item company-item3 fw-400 fs-xl lh-140 ff-sans color-b5 mt-4 position-relative">Get your shares in seconds</div>
                             </div>
                             <button
                                 class="common-btn account-btn d-flex align-items-center justify-content-center mt-5 w-100">Open
@@ -286,9 +303,9 @@
             <img src="./assets/images/png/trade-right2.png" alt="trade2-right" class="trade-right2 position-absolute">
         </section>
 
-        <!------------------------------------------------------ Understanding section-3 --------------------------------------------->
+        ---------------------------------------------------- Understanding section-3 -------------------------------------------
         <section class="section3">
-            <div class="my-container">
+            <div class="my-container position-relative z-1">
                 <h2 class="sec3-h ff-sans fw-700 fs-10xl lh-125 white-color mx-auto text-center">Understanding
                     <span>Leveraged</span>
                     Accounts and <span>Buying Power</span>
@@ -392,9 +409,9 @@
             </div>
         </section>
 
-        <!------------------------------------------------------ Top 7  section-4 ---------------------------------------------------->
+        ----------------------------------------------------- Top 7  section-4 --------------------------------------------------
         <section class="section4 pt-180 position-relative">
-            <div class="top7-box d-flex align-items-center justify-content-center">
+            <div class="top7-box d-flex align-items-center justify-content-center position-relative z-1">
                 <div class="top1 position-relative"></div>
                 <div class="Middle-content px-22">
                     <div class="fw-700 fs-15xl lh-125 ff-sans white-color text-center text-nowrap">Top 7</div>
@@ -402,7 +419,7 @@
                 </div>
                 <div class="top2 position-relative"></div>
             </div>
-            <div class="my-container pt-80">
+            <div class="my-container pt-80 position-relative z-1">
 
                 <div class="row align-items-center">
                     <div class="col-6">
@@ -564,9 +581,9 @@
             <img src="./assets/images/png/trade-right2.png" alt="ellips-three" class="top7-right5 position-absolute">
         </section>
 
-        <!------------------------------------------------------ TIMELINE  section-5 ------------------------------------------------->
+        ---------------------------------------------------- TIMELINE  section-5 -----------------------------------------------
         <section class="section5 pt-150 position-relative">
-            <div class="my-container pb-107">
+            <div class="my-container pb-107 position-relative z-1">
                 <div class="timeline-box mx-auto">
                     <h2 class="timeline-h ff-sans fw-700 fs-10xl lh-150 white-color text-center mx-auto">How it
                         <span>Works</span>
@@ -620,11 +637,12 @@
                 </div>
             </div>
             <img src="./assets/images/png/ellips.png" alt="timeline-left" class="timeline-left position-absolute">
+            <img src="./assets/images/png/trade-right2.png" alt="timeline-right" class="timeline-right position-absolute">
         </section>
 
-        <!------------------------------------------------------ STATICS  section-6 -------------------------------------------------->
+        ---------------------------------------------------- STATICS  section-6 ------------------------------------------------
         <section class="section6 pt-150">
-            <div class="my-container">
+            <div class="my-container position-relative z-1">
                 <h2 class="sec6-h fw-700 fs-10xl ff-sans white-color lh-150 text-center"><span>Statistics</span> For
                     Today</h2>
                 <div class="row pt-114">
@@ -659,9 +677,9 @@
             </div>
         </section>
 
-        <!------------------------------------------------------ INVESTMENT  section-7 ----------------------------------------------->
+        ---------------------------------------------------- INVESTMENT  section-7 ---------------------------------------------
         <section class="section7 pt-150 position-relative">
-            <div class="my-container w-100">
+            <div class="my-container w-100 position-relative z-1">
                 <div class="row align-items-center justify-content-end">
                     <div class="col-5 col-xxl-5">
                         <img src="./assets/images/png/investment.png" alt="investment image" class="invesment-image">
@@ -678,11 +696,12 @@
                 </div>
             </div>
             <img src="./assets/images/png/invest-left.png" alt="invest left" class="invest-left position-absolute">
+            <img src="./assets/images/png/trade-right2.png" alt="invest right" class="invest-right position-absolute">
         </section>
 
-        <!------------------------------------------------------ ACCORDIAN  section-8 ------------------------------------------------>
+        ---------------------------------------------------- ACCORDIAN  section-8 ----------------------------------------------
         <section class="section8 pt-150">
-            <div class="my-container">
+            <div class="my-container position-relative z-1">
                 <h2 class="timeline-h ff-sans fw-700 fs-10xl lh-150 white-color text-center mx-auto">Frequently
                     <span>Asked Questions</span>
                 </h2>
@@ -760,9 +779,9 @@
             </div>
         </section>
 
-        <!------------------------------------------------------ BENIFIT  section-9 -------------------------------------------------->
+        ---------------------------------------------------- BENIFIT  section-9 ------------------------------------------------
         <section class="section9 pt-200 position-relative">
-            <div class="my-container">
+            <div class="my-container position-relative z-1">
                 <h2 class="sec9-h ff-sans fw-700 fs-10xl lh-125 white-color text-center mx-auto">How to
                     <span>Benefit</span> By Investing In AI Stocks For <span>High Returns</span>
                 </h2>
@@ -821,14 +840,13 @@
                         Investment can give a return of more than <span>130.66%</span> in 2024.</p>
                 </div>
             </div>
-            <img src="./assets/images/png/benifit-left.png" alt="benifit left image"
-                class="benifit-left position-absolute">
+            <img src="./assets/images/png/benifit-left.png" alt="benifit left image" class="benifit-left position-absolute">
+            <img src="./assets/images/png/trade-right2.png" alt="benifit right image" class="benifit-right position-absolute">
         </section>
 
-
-        <!------------------------------------------------------ FIRST STEP  section-10 ---------------------------------------------->
+        ---------------------------------------------------- FIRST STEP  section-10 --------------------------------------------
         <section class="section10 pt-200 position-relative">
-            <div class="my-container">
+            <div class="my-container position-relative z-1">
                 <h2 class="first-h fw-700 fs-10xl ff-sans white-color lh-125 text-center mx-auto">Take the <span>first
                         step</span> into AI Stock Trading</h2>
                 <div class="first-p fw-400 fs-md lh-125 color-ccc ff-sans text-center mx-auto">In a matter of minutes,
@@ -873,12 +891,13 @@
                 </div>
             </div>
             <img src="./assets/images/png/step-left.png" alt="step left image" class="step-left position-absolute">
+            <img src="./assets/images/png/step-right.png" alt="step right image" class="step-right position-absolute">
         </section>
 
-    </main>
+    </main> -->
 
-    <footer class="pt-200 position-relative overflow-hidden">
-        <div class="my-container">
+    <!-- <footer class="pt-200 position-relative overflow-hidden">
+        <div class="my-container position-relative z-1">
             <h2 class="footer-h fw-700 fs-7xl ff-sans white-color text-center">AI STOCKS</h2>
             <p class="footer-p ff-sans fw-400 fs-md lh-160 color-ccc text-center mx-auto mt-3">Empowering Your Financial
                 Future with Intelligent Investments</p>
@@ -895,10 +914,11 @@
                 for every type of
                 investor. You should not invest money that you cannot afford to lose.</p>
         </div>
-        <div class="sub-footer ff-sans fw-400 fs-md lh-150 color-ccc text-center position-relative">Copyright@2024 | AI
+        <div class="sub-footer ff-sans fw-400 fs-md lh-150 color-ccc text-center position-relative z-1">Copyright@2024 | AI
             Stocks</div>
         <img src="./assets/images/png/footer-left1.png" alt="footer-left1" class="footer-left1 position-absolute">
-    </footer>
+        <img src="./assets/images/png/footer-left1.png" alt="footer-left1" class="footer-right position-absolute">
+    </footer> -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
