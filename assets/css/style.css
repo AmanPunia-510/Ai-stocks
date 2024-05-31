@@ -810,7 +810,7 @@ h2 {
 }
 
 .header3-left {
-  left: -406px;
+  left: -355px;
   bottom: -179px;
 }
 
@@ -857,6 +857,26 @@ h2 {
 .top7-left3 {
   left: -63px;
   top: 44%;
+}
+
+.top7-left4 {
+  left: -21px;
+  top: 63%;
+}
+
+.top7-left5 {
+  bottom: -9%;
+  left: -33px;
+}
+
+.header1-right {
+  right: 0;
+  top: 0;
+}
+
+.header2-right {
+  right: 0;
+  bottom: 125px;
 }
 
 @media (min-width: 1400px) {
