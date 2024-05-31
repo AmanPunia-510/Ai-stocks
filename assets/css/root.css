@@ -77,6 +77,14 @@
   --color-b3: #b3b4b5;
   --color-e6: #e6e6e6;
   --color-b5: #b5b6b7;
+
+  --btn-color: #010101;
+  --iti-flag: #0000000f;
+  --time-card: #ffffff12;
+  --common-timer: #ffffff00;
+  --btn-bg: linear-gradient(107.02deg, #00ffe1 12.76%, #6e5df6 91.81%);
+  --nav-after: linear-gradient(195.67deg, #00ffe1 83.47%, #6e5df6 102.11%);
+  --hero-h: linear-gradient(107.02deg, #00ffe1 12.76%, #6e5df6 91.81%);
 }
 
 .ff-sans {

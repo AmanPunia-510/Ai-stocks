@@ -194,14 +194,14 @@ h2 {
 .common-btn {
   height: 48px;
   outline: none;
-  color: #010101;
+  color: var(--btn-color);
   border-radius: 4px;
   font-size: var(--fs-md);
   font-weight: var(--fw-700);
   line-height: var(--lh-150);
   font-family: var(--ff-sans);
   border: 1px solid var(--white-color);
-  background: linear-gradient(107.02deg, #00ffe1 12.76%, #6e5df6 91.81%);
+  background: var(--btn-bg);
 }
 
 .sign-btn {
@@ -213,7 +213,7 @@ h2 {
   position: absolute;
   inset: 0;
   padding-bottom: 3px;
-  background: linear-gradient(195.67deg, #00ffe1 83.47%, #6e5df6 102.11%);
+  background: var(--nav-after);
   -webkit-mask: linear-gradient(var(--white-color) 0 0) content-box,
     linear-gradient(var(--white-color) 0 0);
   -webkit-mask-composite: xor;
@@ -226,7 +226,7 @@ h2 {
 }
 
 .hero-h span {
-  background: linear-gradient(107.02deg, #00ffe1 12.76%, #6e5df6 91.81%);
+  background: var(--hero-h);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -255,7 +255,7 @@ h2 {
   width: 100%;
   height: 100%;
   border-radius: 7px;
-  background: linear-gradient(195.67deg, #00ffe1 83.47%, #6e5df6 102.11%);
+  background: var(--nav-after);
   -webkit-mask: linear-gradient(var(--white-color) 0 0) content-box,
     linear-gradient(var(--white-color) 0 0);
   -webkit-mask-composite: xor;
@@ -268,11 +268,11 @@ h2 {
   height: 128px;
   border-radius: 8px;
   backdrop-filter: blur(39px);
-  background: #ffffff00;
+  background: var(--common-timer);
 }
 
 .time-card {
-  background: #ffffff12;
+  background: var(--time-card);
   backdrop-filter: blur(15px);
   padding: 12px;
 }
@@ -285,7 +285,7 @@ h2 {
   width: 100%;
   height: 100%;
   border-radius: 8px;
-  background: linear-gradient(195.67deg, #00ffe1 83.47%, #6e5df6 102.11%);
+  background: var(--nav-after);
   -webkit-mask: linear-gradient(var(--white-color) 0 0) content-box,
     linear-gradient(var(--white-color) 0 0);
   -webkit-mask-composite: xor;
@@ -307,7 +307,7 @@ h2 {
 .iti__flag-container {
   width: 100% !important;
   width: 72px;
-  background: #0000000f;
+  background: var(--iti-flag);
 }
 
 .iti {
@@ -322,7 +322,7 @@ h2 {
   height: 100%;
   width: 73px;
   justify-content: center;
-  background: #0000000f;
+  background: var(--iti-flag);
 }
 
 #phone {
