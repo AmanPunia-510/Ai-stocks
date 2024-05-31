@@ -336,9 +336,7 @@ h2 {
 /* ------------------------------------------------------  SLIDER ------------------------------------------------------------- */
 
 .common-slider {
-  height: 126px;
   padding: 20px;
-  padding-right: 72px;
   border-radius: 8px;
   background: #ffffff03;
 }
@@ -991,6 +989,12 @@ h2 {
   }
 }
 
+@media (min-width: 768px) {
+  .common-slider {
+    padding-right: 72px;
+  }
+}
+
 @media (min-width: 992px) {
   .max-w-lg-654 {
     max-width: 654px;
@@ -1027,6 +1031,20 @@ h2 {
     max-width: 1181px;
     right: 55%;
     height: 110%;
+  }
+}
+
+@media (max-width: 767.1px) {
+  .slider-content {
+    flex-direction: column !important;
+  }
+
+  .slider-p {
+    text-align: center !important;
+  }
+
+  .slider-h {
+    text-align: center !important;
   }
 }
 
