@@ -309,6 +309,32 @@ h2 {
   left: 0;
 }
 
+.iti__flag-container {
+  width: 100% !important;
+  width: 72px;
+  background: #0000000f;
+}
+
+.iti {
+  width: 100%;
+  margin-top: 12px;
+}
+
+.iti__selected-flag {
+  z-index: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 73px;
+  justify-content: center;
+  background: #0000000f;
+}
+
+#phone {
+  padding-left: 85px !important;
+}
+
 /* ------------------------------------------------------  SLIDER ------------------------------------------------------------- */
 
 .common-slider {
@@ -581,9 +607,9 @@ h2 {
 
 .invesment-image {
   position: absolute;
-  top: 36.3%;
+  top: 33.3%;
   width: 100%;
-  max-width: 824px;
+  max-width: 834px;
   right: 53%;
 }
 
@@ -808,6 +834,31 @@ h2 {
   left: 0;
 }
 
+.invest-left {
+  bottom: 0;
+  left: 0;
+}
+
+.timeline-left {
+  left: 0;
+  top: 40%;
+}
+
+.top7-left1 {
+  left: 0;
+  top: -65px;
+}
+
+.top7-left2 {
+  left: -46px;
+  top: 20%;
+}
+
+.top7-left3 {
+  left: -63px;
+  top: 44%;
+}
+
 @media (min-width: 1400px) {
   .invesment-image {
     position: absolute;
@@ -815,5 +866,16 @@ h2 {
     width: 100%;
     max-width: 1014px;
     right: 54%;
+  }
+}
+
+@media (min-width: 1920px) {
+  .invesment-image {
+    position: absolute;
+    top: 26%;
+    width: 100%;
+    max-width: 1195px;
+    right: 54%;
+    height: 85%;
   }
 }
