@@ -82,6 +82,8 @@
   --iti-flag: #0000000f;
   --time-card: #ffffff12;
   --common-timer: #ffffff00;
+  --common-slider: #ffffff03;
+  --slider-p: linear-gradient(171.68deg, #00ffe1 39.97%, #6e5df6 107.69%);
   --btn-bg: linear-gradient(107.02deg, #00ffe1 12.76%, #6e5df6 91.81%);
   --nav-after: linear-gradient(195.67deg, #00ffe1 83.47%, #6e5df6 102.11%);
   --hero-h: linear-gradient(107.02deg, #00ffe1 12.76%, #6e5df6 91.81%);
@@ -292,6 +294,7 @@
   :root {
     --fs-12xl: 26px;
     --fs-10xl: 30px;
+    --fs-xl: 17px;
     --fs-lg: 16px;
   }
 }
