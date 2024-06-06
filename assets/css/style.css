@@ -35,10 +35,6 @@ h2 {
   max-width: 524px;
 }
 
-.max-w-557 {
-  max-width: 557px;
-}
-
 /* ------------------------------------------------------  Z-indexs ----------------------------------------------------- */
 
 .z-0 {
@@ -552,7 +548,7 @@ h2 {
 .content-box3 {
   max-width: 506px;
   margin-top: 136px;
-  margin-left: 170px;
+  margin-left: 60px;
 }
 
 .open-btn {
@@ -603,10 +599,6 @@ h2 {
 }
 
 /* ------------------------------------------------------  INVESTMENT -------------------------------------------------------- */
-
-.investment-box {
-  max-width: 558px;
-}
 
 .investment-h span {
   background: linear-gradient(171.68deg, #00ffe1 39.97%, #6e5df6 107.69%);
@@ -691,10 +683,6 @@ h2 {
 
 .benifit-box1 {
   max-width: 461px;
-}
-
-.benifit-box2 {
-  max-width: 500px;
 }
 
 .techno-card {
@@ -992,6 +980,10 @@ h2 {
   .common-slider {
     padding-right: 72px;
   }
+
+  .content-box3 {
+    margin-left: 170px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -1013,6 +1005,28 @@ h2 {
 
   .pr-lg-0 {
     padding-right: 0 !important;
+  }
+
+  .max-w-lg-557 {
+    max-width: 557px;
+  }
+
+  .w-lg-auto {
+    width: auto !important;
+  }
+
+  .mt-lg-44 {
+    margin-top: 44px !important;
+  }
+
+  .benifit-box2 {
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .investment-box {
+    max-width: 558px;
   }
 }
 
@@ -1037,6 +1051,18 @@ h2 {
   }
 }
 
+@media (max-width: 991.1px) {
+  .sec3-white-card {
+    bottom: 0;
+    border-radius: 0;
+  }
+
+  .sec3-blue-card {
+    border-radius: 0;
+    padding: 25px;
+  }
+}
+
 @media (max-width: 767.1px) {
   .slider-content {
     flex-direction: column !important;
@@ -1051,7 +1077,7 @@ h2 {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575.1px) {
   .sign-btn {
     width: 100px;
     height: 42px;
@@ -1063,5 +1089,26 @@ h2 {
 
   .trade1-left {
     width: 100%;
+  }
+
+  .sec3-blue-card {
+    padding: 12px;
+  }
+
+  .content-box3 {
+    margin-top: 32px;
+    margin-left: 0;
+    max-width: unset;
+  }
+
+  .content-box1 {
+    max-width: unset;
+    padding: 0px 12px;
+  }
+
+  .content-box2 {
+    margin-top: 32px;
+    max-width: unset;
+    padding: 0px 12px;
   }
 }
