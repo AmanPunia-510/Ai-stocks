@@ -13,6 +13,22 @@ $(".slider").slick({
   cssEase: "linear",
 });
 
+
+ $(".slider2").slick({
+  centerMode: true,
+  centerPadding: '0px',
+  slidesToShow: 3,
+  vertical: true,
+  verticalSwiping: true,
+  slidesToScroll: 1,
+  arrows: false,
+  swipeToSlide: true,
+  focusOnSelect: true,
+  autoplay: true,
+  autoplaySpeed: 0,
+  speed: 1000,
+ });
+
 // accrodian
 
 let accordian_items = document.querySelectorAll(".accordian-box");
