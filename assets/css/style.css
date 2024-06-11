@@ -59,6 +59,14 @@ h2 {
   padding-top: 2px;
 }
 
+.pl-10 {
+  padding-left: 10px !important;
+}
+
+.pr-10 {
+  padding-right: 10px !important;
+}
+
 .py-14 {
   padding-top: 14px;
   padding-bottom: 14px;
@@ -77,24 +85,24 @@ h2 {
   padding-right: 22px;
 }
 
+.pt-26 {
+  padding-top: 26px;
+}
+
 .pt-44 {
   padding-top: 44px;
 }
 
-.pt-80 {
-  padding-top: 80px;
+.pt-56 {
+  padding-top: 56px;
+}
+
+.pt-60 {
+  padding-top: 60px;
 }
 
 .pb-100 {
   padding-bottom: 100px;
-}
-
-.pb-107 {
-  padding-bottom: 107px;
-}
-
-.pt-114 {
-  padding-top: 114px;
 }
 
 .pt-150 {
@@ -107,11 +115,6 @@ h2 {
 
 .pt-200 {
   padding-top: 200px;
-}
-
-.py-200 {
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
 
 /* ------------------------------------------------------  Margin Classes ------------------------------------------------------ */
@@ -134,6 +137,10 @@ h2 {
 
 .mt-32 {
   margin-top: 32px;
+}
+
+.mt-34 {
+  margin-top: 34px;
 }
 
 .mt-40 {
@@ -400,6 +407,10 @@ h2 {
 
 /* ------------------------------------------------------  UNDERSTANDING -------------------------------------------------------- */
 
+.section3 {
+  padding-top: 150px;
+}
+
 .sec3-h span {
   background: linear-gradient(204.48deg, #00ffe1 56.67%, #6e5df6 85.15%);
   -webkit-background-clip: text;
@@ -444,6 +455,10 @@ h2 {
 }
 
 /* ------------------------------------------------------  TOP STOCK -------------------------------------------------------- */
+
+.section4 {
+  padding-top: 180px;
+}
 
 .ai-stock {
   background: linear-gradient(171.68deg, #00ffe1 60.26%, #6e5df6 92.73%);
@@ -517,6 +532,10 @@ h2 {
 
 /* ------------------------------------------------------  TIMELINE -------------------------------------------------------- */
 
+.section5 {
+  padding-top: 150px;
+}
+
 .timeline-box {
   max-width: 891px;
 }
@@ -568,6 +587,10 @@ h2 {
 
 /* ------------------------------------------------------  STATICS -------------------------------------------------------- */
 
+.section6 {
+  padding-top: 150px;
+}
+
 .sec6-h span {
   background: linear-gradient(171.68deg, #00ffe1 39.97%, #6e5df6 107.69%);
   -webkit-background-clip: text;
@@ -603,6 +626,10 @@ h2 {
 
 /* ------------------------------------------------------  INVESTMENT -------------------------------------------------------- */
 
+.section7 {
+  padding-top: 150px;
+}
+
 .investment-h span {
   background: linear-gradient(171.68deg, #00ffe1 39.97%, #6e5df6 107.69%);
   -webkit-background-clip: text;
@@ -631,6 +658,10 @@ h2 {
 }
 
 /* ------------------------------------------------------  ACCORDIAN ---------------------------------------------------- */
+
+.section8 {
+  padding-top: 150px;
+}
 
 .accordian {
   max-width: 716px;
@@ -669,6 +700,10 @@ h2 {
 
 /* ------------------------------------------------------  BENIFIT ------------------------------------------------------ */
 
+.section9 {
+  padding-top: 200px;
+}
+
 .sec9-h {
   max-width: 733px;
 }
@@ -689,16 +724,13 @@ h2 {
 }
 
 .techno-card {
-  background: #ffffff0a;
   border-radius: 12px;
   padding: 45px 12px;
 }
 
-.common-techno-svg {
+.techno-card {
   background: #ffffff0a;
-  height: 64px;
-  width: 64px;
-  border-radius: 4px;
+  cursor: pointer;
 }
 
 .techno-card::after {
@@ -717,6 +749,13 @@ h2 {
   pointer-events: none;
 }
 
+.common-techno-svg {
+  background: #ffffff0a;
+  height: 64px;
+  width: 64px;
+  border-radius: 4px;
+}
+
 .benifit-p {
   max-width: 974px;
 }
@@ -726,6 +765,11 @@ h2 {
 }
 
 /* ------------------------------------------------------  FIRST STEP --------------------------------------------------- */
+
+.section10 {
+  padding-top: 200px;
+}
+
 .first-h span {
   background: linear-gradient(93.4deg, #00ffe1 38.61%, #6e5df6 92.96%);
   -webkit-background-clip: text;
@@ -977,6 +1021,26 @@ h2 {
   .company-item {
     padding-left: 16px;
   }
+
+  .mt-sm-60 {
+    margin-top: 60px;
+  }
+
+  .pt-sm-80 {
+    padding-top: 80px;
+  }
+
+  .pt-sm-150 {
+    padding-top: 150px;
+  }
+
+  .pb-sm-107 {
+    padding-bottom: 107px;
+  }
+
+  .pt-sm-114 {
+    padding-top: 114px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -986,6 +1050,27 @@ h2 {
 
   .content-box3 {
     margin-left: 170px;
+  }
+
+  .techno-card:hover::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 1px;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: linear-gradient(171.68deg, #00ffe1 39.97%, #6e5df6 107.69%);
+    -webkit-mask: linear-gradient(var(--white-color) 0 0) content-box,
+      linear-gradient(var(--white-color) 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+
+  .techno-card:hover {
+    background: #ffffff0a;
+    cursor: pointer;
   }
 }
 
@@ -1022,8 +1107,17 @@ h2 {
     margin-top: 44px !important;
   }
 
+  .section1 {
+    padding-top: 44px;
+    padding-bottom: 200px;
+  }
+
   .benifit-box2 {
     max-width: 500px;
+  }
+
+  .pb-lg-105 {
+    padding-bottom: 107px !important;
   }
 }
 
@@ -1117,5 +1211,68 @@ h2 {
     margin-top: 32px;
     max-width: unset;
     padding: 0px 12px;
+  }
+
+  .section2 {
+    padding-top: 85px;
+    padding-bottom: 85px;
+  }
+
+  .section4 {
+    padding-top: 74px;
+  }
+
+  .section5 {
+    padding-top: 88px;
+  }
+
+  .section6 {
+    padding-top: 88px;
+  }
+
+  .section7 {
+    padding-top: 88px;
+  }
+
+  .section8 {
+    padding-top: 88px;
+  }
+
+  .section9 {
+    padding-top: 85px;
+  }
+
+  .section10 {
+    padding-top: 85px;
+  }
+
+  .timeline-p {
+    margin-top: 16px;
+  }
+
+  .timeline {
+    margin-top: 40px;
+  }
+
+  .benifit-content {
+    margin-top: 40px;
+  }
+
+  .content-box1,
+  .content-box2,
+  .content-box3 {
+    margin-top: 20px;
+  }
+
+  .accordian {
+    margin-top: 8px;
+  }
+
+  .footer {
+    padding-top: 100px;
+  }
+
+  .dis-p {
+    margin-bottom: 16px;
   }
 }

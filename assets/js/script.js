@@ -13,10 +13,9 @@ $(".slider").slick({
   cssEase: "linear",
 });
 
-
- $(".slider2").slick({
+$(".slider2").slick({
   centerMode: true,
-  centerPadding: '0px',
+  centerPadding: "0px",
   slidesToShow: 3,
   vertical: true,
   verticalSwiping: true,
@@ -27,7 +26,7 @@ $(".slider").slick({
   autoplay: true,
   autoplaySpeed: 0,
   speed: 1000,
- });
+});
 
 // accrodian
 
@@ -85,3 +84,4 @@ menu.addEventListener("click", () => {
     }, 200);
   }
 });
+
