@@ -53,8 +53,8 @@ h2 {
   display: none;
 }
 
-.txt-decoration{
-  text-decoration: line-through #040A0E !important;
+.txt-decoration {
+  text-decoration: line-through var(--txt-decoration) !important;
 }
 
 /* ------------------------------------------------------  Padding Classes ----------------------------------------------------- */
@@ -220,8 +220,8 @@ h2 {
 }
 
 .nav {
-  box-shadow: 0px -18px 39px #112a31 inset;
-  background-color: #0f1317;
+  box-shadow: 0px -18px 39px var(--nav-shadow) inset;
+  background-color: var(--nav-bg);
 }
 
 .nav::after {
@@ -375,7 +375,7 @@ h2 {
 /* ------------------------------------------------------  TRADE --------------------------------------------------------------- */
 
 .sec2-h span {
-  background: linear-gradient(95.15deg, #00ffe1 19.02%, #6e5df6 68.8%);
+  background: var(--sec2-h);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -393,9 +393,14 @@ h2 {
 .company-item {
   position: relative;
   padding: 16px;
-  background: #ffffff0a;
+  background: var(--company-bg);
   border-radius: 6px;
-  border: 1px solid #ffffff29;
+  border: 1px solid var(--company-br);
+}
+
+.slider2 .slick-current div .company-item {
+  font-weight: var(--fw-700);
+  color: var(--white-color);
 }
 
 .slider2 .slick-current div .company-item::after {
@@ -406,7 +411,7 @@ h2 {
   width: 100%;
   height: 100%;
   border-radius: 6px;
-  background: linear-gradient(171.68deg, #00ffe1 39.97%, #6e5df6 107.69%);
+  background: var(--slider2);
   -webkit-mask: linear-gradient(var(--white-color) 0 0) content-box,
     linear-gradient(var(--white-color) 0 0);
   -webkit-mask-composite: xor;
@@ -426,7 +431,7 @@ h2 {
 }
 
 .sec3-h span {
-  background: linear-gradient(204.48deg, #00ffe1 56.67%, #6e5df6 85.15%);
+  background: var(--sec3-h);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -440,7 +445,7 @@ h2 {
 .sec3-blue-card {
   padding: 25px 50px 157px 25px;
   border-radius: 15px;
-  background: linear-gradient(82.41deg, #00ffe1 -12.77%, #6e5df6 93.08%);
+  background: var(--sec3-blue);
 }
 
 .sec3-white-card {
@@ -448,12 +453,12 @@ h2 {
   max-width: 471px;
   border-radius: 15px;
   background-color: var(--white-color);
-  border: 1px solid #0000001a;
+  border: 1px solid var(--sec3-br);
   bottom: 81px;
 }
 
 .white-card-h {
-  background: linear-gradient(180deg, #9b77e8 0%, #6854ff 100%);
+  background: var(--white-card);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -461,7 +466,7 @@ h2 {
 
 .forty-dollr-box {
   border-radius: 10px;
-  box-shadow: 0px 0px 11.1px 0px #0000001a;
+  box-shadow: 0px 0px 11.1px 0px var(--sec3-br);
 }
 
 .profit-btn {
@@ -479,7 +484,7 @@ h2 {
 }
 
 .ai-stock {
-  background: linear-gradient(171.68deg, #00ffe1 60.26%, #6e5df6 92.73%);
+  background: var(--ai-stock);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -493,13 +498,7 @@ h2 {
   width: 100%;
   height: 100%;
   border-radius: 8px;
-  background: linear-gradient(
-    91.31deg,
-    rgba(110, 93, 246, 0) 0.25%,
-    #aeaeae 28.47%,
-    #7e34dc 50.45%,
-    #00ffe1 95.53%
-  );
+  background: var(--top1);
   -webkit-mask: linear-gradient(var(--white-color) 0 0) content-box,
     linear-gradient(var(--white-color) 0 0);
   -webkit-mask-composite: xor;
@@ -523,13 +522,7 @@ h2 {
   width: 100%;
   height: 100%;
   border-radius: 8px;
-  background: linear-gradient(
-    91.31deg,
-    #00ffe1 0.25%,
-    #7e34dc 28.47%,
-    #aeaeae 50.45%,
-    rgba(110, 93, 246, 0) 95.53%
-  );
+  background: var(--top2);
   -webkit-mask: linear-gradient(var(--white-color) 0 0) content-box,
     linear-gradient(var(--white-color) 0 0);
   -webkit-mask-composite: xor;
@@ -538,7 +531,7 @@ h2 {
 }
 
 .stock-h span {
-  background: linear-gradient(171.68deg, #00ffe1 39.97%, #6e5df6 107.69%);
+  background: var(--slider-p);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -564,7 +557,7 @@ h2 {
 }
 
 .timeline-h span {
-  background: linear-gradient(171.68deg, #00ffe1 39.97%, #6e5df6 107.69%);
+  background: var(--slider-p);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -610,7 +603,7 @@ h2 {
 }
 
 .sec6-h span {
-  background: linear-gradient(171.68deg, #00ffe1 39.97%, #6e5df6 107.69%);
+  background: var(--slider-p);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -634,7 +627,7 @@ h2 {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: linear-gradient(171.68deg, #00ffe1 39.97%, #6e5df6 107.69%);
+  background: var(--slider-p);
   -webkit-mask: linear-gradient(var(--white-color) 0 0) content-box,
     linear-gradient(var(--white-color) 0 0);
   -webkit-mask-composite: xor;
@@ -649,7 +642,7 @@ h2 {
 }
 
 .investment-h span {
-  background: linear-gradient(171.68deg, #00ffe1 39.97%, #6e5df6 107.69%);
+  background: var(--slider-p);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -700,7 +693,7 @@ h2 {
   padding-bottom: 1px;
   width: 100%;
   height: 100%;
-  background: linear-gradient(171.68deg, #00ffe1 39.97%, #6e5df6 107.69%);
+  background: var(--slider-p);
   -webkit-mask: linear-gradient(var(--white-color) 0 0) content-box,
     linear-gradient(var(--white-color) 0 0);
   -webkit-mask-composite: xor;
@@ -727,7 +720,7 @@ h2 {
 }
 
 .sec9-h span {
-  background: linear-gradient(93.4deg, #00ffe1 38.61%, #6e5df6 92.96%);
+  background: var(--sec9-h);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -748,7 +741,7 @@ h2 {
 }
 
 .common-techno-svg {
-  background: #ffffff0a;
+  background: var(--company-bg);
   height: 64px;
   width: 64px;
   border-radius: 4px;
@@ -759,7 +752,7 @@ h2 {
 }
 
 .benifit-p span {
-  color: #449bee;
+  color: var(--benifit);
 }
 
 /* ------------------------------------------------------  FIRST STEP --------------------------------------------------- */
@@ -769,7 +762,7 @@ h2 {
 }
 
 .first-h span {
-  background: linear-gradient(93.4deg, #00ffe1 38.61%, #6e5df6 92.96%);
+  background: var(--sec9-h);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -786,7 +779,7 @@ h2 {
 
 .sign-card {
   max-width: 558px;
-  background: #01102040;
+  background: var(--sign);
   border-radius: 8px;
 }
 
@@ -798,7 +791,7 @@ h2 {
   width: 100%;
   height: 100%;
   border-radius: 8px;
-  background: linear-gradient(171.68deg, #00ffe1 39.97%, #6e5df6 107.69%);
+  background: var(--slider-p);
   -webkit-mask: linear-gradient(var(--white-color) 0 0) content-box,
     linear-gradient(var(--white-color) 0 0);
   -webkit-mask-composite: xor;
@@ -807,7 +800,7 @@ h2 {
 }
 
 .common-input-typ {
-  border: 1px solid #ffffffb2;
+  border: 1px solid var(--common-inp);
   padding: 16px;
   outline: none;
   background-color: transparent;
@@ -844,7 +837,7 @@ h2 {
   padding-top: 1px;
   width: 100%;
   height: 100%;
-  background: linear-gradient(107.02deg, #00ffe1 12.76%, #6e5df6 91.81%);
+  background: var(--sub-f);
   -webkit-mask: linear-gradient(var(--white-color) 0 0) content-box,
     linear-gradient(var(--white-color) 0 0);
   -webkit-mask-composite: xor;
@@ -1059,7 +1052,7 @@ h2 {
     width: 100%;
     height: 100%;
     border-radius: 12px;
-    background: linear-gradient(171.68deg, #00ffe1 39.97%, #6e5df6 107.69%);
+    background: var(--slider-p);
     -webkit-mask: linear-gradient(var(--white-color) 0 0) content-box,
       linear-gradient(var(--white-color) 0 0);
     -webkit-mask-composite: xor;
@@ -1068,7 +1061,7 @@ h2 {
   }
 
   .techno-card:hover {
-    background: #ffffff0a;
+    background: var(--company-bg);
     cursor: pointer;
   }
 }
@@ -1221,7 +1214,7 @@ h2 {
   }
 
   .techno-card {
-    background: #ffffff0a;
+    background: var(--company-bg);
     cursor: pointer;
   }
 
@@ -1233,7 +1226,7 @@ h2 {
     width: 100%;
     height: 100%;
     border-radius: 12px;
-    background: linear-gradient(171.68deg, #00ffe1 39.97%, #6e5df6 107.69%);
+    background: var(--slider-p);
     -webkit-mask: linear-gradient(var(--white-color) 0 0) content-box,
       linear-gradient(var(--white-color) 0 0);
     -webkit-mask-composite: xor;
