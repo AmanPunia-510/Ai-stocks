@@ -193,6 +193,7 @@ h2 {
   gap: 18px;
 }
 
+/* ------------------------------------------------------ Preloader -------------------------------------------------------- */
 .preloader {
   background: var(--slider-p);
   z-index: 100;
@@ -298,6 +299,13 @@ h2 {
   background-size: cover;
 }
 
+.logo a:hover {
+  background: var(--slider-p);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .common-btn {
   height: 48px;
   outline: none;
@@ -309,6 +317,14 @@ h2 {
   font-family: var(--ff-sans);
   border: 1px solid var(--white-color);
   background: var(--btn-bg);
+  transition: all 0.2s;
+}
+
+.common-btn:hover {
+  color: var(--white-color);
+  background: transparent;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 15px var(--btn-h);
 }
 
 .sign-btn {
